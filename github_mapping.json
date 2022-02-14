@@ -1,0 +1,38 @@
+{
+    "properties": {
+        "usernames": {
+            "type": "text"
+        },
+        "repository_name": {
+            "type": "text",
+            "fields": {
+                "raw": {
+                    "type": "Keyword"
+                }
+            }
+        },
+        "description": {
+            "type": "text"
+        },
+        "last_update_date": {
+            "type": "text"
+        },
+        "language": {
+            "type": "text",
+            "fields": {
+                "raw": {
+                    "type": "Keyword"
+                }
+            }
+        },
+        "number of Stars": {
+            "type": "text"
+        },
+        "tags": {
+            "type": "text"
+        },
+        "url": {
+            "type": "text"
+        }
+    }
+}
